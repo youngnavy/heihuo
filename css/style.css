@@ -28,37 +28,37 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 26px;
+  font-size: 28px;
   margin: 22px 0;
 }
 
 h2 {
-  font-size: 22px;
+  font-size: 24px;
   margin: 20px 0;
 }
 
 h3 {
-  font-size: 20px;
+  font-size: 22px;
   margin: 16px 0;
 }
 
 h4 {
-  font-size: 16px;
+  font-size: 18px;
   margin: 14px 0;
 }
 
 h5 {
-  font-size: 14px;
+  font-size: 16px;
   margin: 12px 0;
 }
 
 h6 {
-  font-size: 12px;
+  font-size: 14px;
   margin: 10px 0;
 }
 
 a {
-  color: #c39d6d;
+  color: #4169E1;
   -moz-transition: 0.3s ease-in-out;
   -o-transition: 0.3s ease-in-out;
   -webkit-transition: 0.3s ease-in-out;
@@ -68,21 +68,22 @@ a {
   font-weight: 700;
   outline: 0 !important;
   text-overflow: clip;
-  word-wrap: break-word;
+  word-wrap: break-word;  
 }
 a:hover, a:active, a:focus {
   color: #ad8b60;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 p {
   font-family: "Raleway", sans-serif;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
   color: #666666;
   letter-spacing: 0.05em;
   margin-bottom: 0;
+  
 }
 
 .dark p {
@@ -553,17 +554,17 @@ input:focus {
 }
 
 .btn-link {
-  color: #c39d6d;
+  color: #0000FF;
 }
 
 .btn-link:hover {
-  color: #ad8b60;
-  text-decoration: none;
+  color: #1E90FF;
+  text-decoration: underline;
 }
 
 .btn-link:focus {
-  color: #ad8b60;
-  text-decoration: none;
+  color: #1E90FF;
+  text-decoration: underline;
 }
 
 a.btn {
