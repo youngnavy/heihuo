@@ -103,7 +103,157 @@
 <!-- content -->
 
 <!-- portfolio section -->
+<style type="text/css">
+    .page-to-all {
+        width: 100%;
+        text-align: center;
+        margin: 40px auto 10px;
+    }
+    .page-to-all a {
+        display: inline-block;
+    }
+    #portfolio .portfolio-filter li{
+        cursor: pointer;
+    }
+     #portfolio .lightbox .project-hover-tools {
+        left: 50%;
+        right: auto;
+        width: 42px;
+        margin-left: -21px;
+    }
+    #portfolio .lightbox .project-hover-tools a {
+        margin: 0;
+    }
+    
+    #portfolio .lightbox .project .project-preview {
+        position: relative;
+        height: 260px;
+        overflow: hidden;
+    }
+    #portfolio .lightbox .project .project-preview img {
+        min-width: 100%;
+        min-height: 100%;
+        position: relative;
+        margin: auto;
+    }
+    .project-item-name {
+        display: none;
+    }
+    @media (max-width: 768px) {
+        #portfolio .project-item-name {
+            display: block;
+            color: #fff;
+            padding: 10px 20px;
+            font-size: 18px;
+            font-weight: 600;
+        }
+    }
+</style>
+<section id="portfolio">
+    <div class="container">
+        <!-- portfolio filter -->
+        <ul class="portfolio-filter list-inline text-center">
+            <li><a data-group="all" class="active">全部</a></li>
+            
+                <li><a data-group="cjepk7cjt000p7sy11rtd3sxi">自媒体</a></li>
+            
+        </ul>
+        <!--end portfolio filter -->
+        <ul class="row portfolio list-unstyled lightbox" id="grid">
 
+            
+                <!-- project -->
+                <li class="col-xs-6 col-md-4 project project-item" data-groups='["cjepk7cjt000p7sy11rtd3sxi"]' data-url="/ps.html">
+                    <div class="img-bg-color primary">
+                        <div class="project-preview"><img src="http://o7kkw3lf4.bkt.clouddn.com/project1.jpg"></div>
+                        <!-- project-hover-tools -->
+                        <div class="project-hover-tools">
+                            <a href="/ps.html" class="view-btn">
+                                <i class="lnr lnr-eye"></i>
+                            </a>
+                        </div>
+                        <!-- / project-hover-tools -->
+                        <!-- project-details -->
+                        <div class="project-details">
+                            <h5 class="project-title">Ps下载安装、教学视频</h5>
+                            <p class="skill">自媒体</p>
+                        </div>
+                        <!-- / project-details -->
+                        <div class="project-item-name">Ps下载安装、教学视频</div>
+                    </div>
+                    <!-- / img-bg-color -->
+                </li>
+                <!-- / project -->
+            
+                <!-- project -->
+                <li class="col-xs-6 col-md-4 project project-item" data-groups='["cjepk7cjt000p7sy11rtd3sxi"]' data-url="/pr.html">
+                    <div class="img-bg-color primary">
+                        <div class="project-preview"><img src="http://o7kkw3lf4.bkt.clouddn.com/project2.jpg"></div>
+                        <!-- project-hover-tools -->
+                        <div class="project-hover-tools">
+                            <a href="/pr.html" class="view-btn">
+                                <i class="lnr lnr-eye"></i>
+                            </a>
+                        </div>
+                        <!-- / project-hover-tools -->
+                        <!-- project-details -->
+                        <div class="project-details">
+                            <h5 class="project-title">PR下载安装、教学视频</h5>
+                            <p class="skill">自媒体</p>
+                        </div>
+                        <!-- / project-details -->
+                        <div class="project-item-name">PR下载安装、教学视频</div>
+                    </div>
+                    <!-- / img-bg-color -->
+                </li>
+                <!-- / project -->
+            
+                <!-- project -->
+                <li class="col-xs-6 col-md-4 project project-item" data-groups='["cjepk7cjt000p7sy11rtd3sxi"]' data-url="/app.html">
+                    <div class="img-bg-color primary">
+                        <div class="project-preview"><img src="http://o7kkw3lf4.bkt.clouddn.com/project9.jpg"></div>
+                        <!-- project-hover-tools -->
+                        <div class="project-hover-tools">
+                            <a href="/app.html" class="view-btn">
+                                <i class="lnr lnr-eye"></i>
+                            </a>
+                        </div>
+                        <!-- / project-hover-tools -->
+                        <!-- project-details -->
+                        <div class="project-details">
+                            <h5 class="project-title">小技巧、小软件推荐合集</h5>
+                            <p class="skill">自媒体</p>
+                        </div>
+                        <!-- / project-details -->
+                        <div class="project-item-name">小技巧、小软件推荐合集</div>
+                    </div>
+                    <!-- / img-bg-color -->
+                </li>
+                <!-- / project -->
+            
+
+            
+                <!-- project -->
+                <li class="col-xs-6 col-md-4 project" data-groups='["illustration"]'>
+                    <div class="img-bg-color primary">
+                        <div class="project-preview"><img src="http://o7kkw3lf4.bkt.clouddn.com/project_preview_more.jpg"></div>
+                        <!-- project-details -->
+                        <div class="project-details">
+                            <h5 class="project-title">敬请期待</h5>
+                            <p class="skill">更多项目</p>
+                        </div>
+                        <!-- / project-details -->
+                    </div>
+                    <!-- / img-bg-color -->
+                </li>
+                <!-- / project -->
+            
+        </ul>
+        <!-- / projects -->
+    </div>
+    <!-- / container -->
+    <script src="/js/project_index.js" type="text/javascript" charset="utf-8"></script>
+</section>
 <!-- / portfolio section -->
 
 <!-- blog section 3col -->
@@ -286,27 +436,6 @@ PS案例教程：第140-149集·人景篇
                 <!-- post-block -->
                 <div class="col-sm-4">
                     <div class="post-block">
-                        <a href="/index123.html" class="post-preview" style="background-image: url(http://o7kkw3lf4.bkt.clouddn.com/project9.jpg)"></a>
-                        <div class="small-post-text">
-                            <h5><a href="/index123.html">小技巧、小软件推荐合集</a></h5>
-                            <p class="small-post-meta">
-                                2018/10/13
-                            </p>
-                            <p class="space-bottom" style="max-height: 100px; overflow: hidden">
-                                pc端滚动截屏软件推荐：picpick和FSCapturePC端高清屏幕录制软件推荐：Bandicam、Apowersoft录屏王get小技巧：批量提取文件夹内文件名、提取自己的歌单等get小技巧：如何保持窗口置顶get小技巧：编程小白应用markdown语法设计自定义导航
-
-                            </p>
-                        </div>
-                        <!-- / small-post-text -->
-                    </div>
-                    <!-- / post-block -->
-                </div>
-                <!-- / col-md-4 -->
-                <!-- / post-block -->
-                
-                <!-- post-block -->
-                <div class="col-sm-4">
-                    <div class="post-block">
                         <a href="/index123.html" class="post-preview" style="background-image: url(http://o7kkw3lf4.bkt.clouddn.com/project2.jpg)"></a>
                         <div class="small-post-text">
                             <h5><a href="/index123.html">PR下载安装、教学视频</a></h5>
@@ -407,6 +536,27 @@ pr入门基础教程第21节：马赛克制作技巧方法
                 <!-- / col-md-4 -->
                 <!-- / post-block -->
                 
+                <!-- post-block -->
+                <div class="col-sm-4">
+                    <div class="post-block">
+                        <a href="/index123.html" class="post-preview" style="background-image: url(http://o7kkw3lf4.bkt.clouddn.com/project9.jpg)"></a>
+                        <div class="small-post-text">
+                            <h5><a href="/index123.html">小技巧、小软件推荐合集1</a></h5>
+                            <p class="small-post-meta">
+                                2018/10/13
+                            </p>
+                            <p class="space-bottom" style="max-height: 100px; overflow: hidden">
+                                pc端滚动截屏软件推荐：picpick和FSCapturePC端高清屏幕录制软件推荐：Bandicam、Apowersoft录屏王get小技巧：批量提取文件夹内文件名、提取自己的歌单等get小技巧：如何保持窗口置顶get小技巧：编程小白应用markdown语法设计自定义导航
+
+                            </p>
+                        </div>
+                        <!-- / small-post-text -->
+                    </div>
+                    <!-- / post-block -->
+                </div>
+                <!-- / col-md-4 -->
+                <!-- / post-block -->
+                
         </div>
         <!-- / row -->
     </div>
@@ -457,11 +607,12 @@ $(function() {
 <script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
 </script>
 <span id="busuanzi_container_site_uv">
-  黑火软件大师（微信号:heihuovip）欢迎第<span id="busuanzi_value_site_uv"></span>位粉丝光临
+ 镁铝科技欢迎第<span id="busuanzi_value_site_uv"></span>位粉丝光临
 </span>
 <span id="busuanzi_container_site_pv">
-    本站总访问量<span id="busuanzi_value_site_pv"></span>次.黑火软件大师提供软件下载安装指导及使用教程 
+    本站总访问量<span id="busuanzi_value_site_pv"></span>次.
 </span>
 <span class="link">由<a href="http://www.mgal.cn" target=_blank>镁铝科技</a>强力驱动 | <a href="http://www.kuming.vip" target=_blank>酷名网</a> | <a href="/#blog" target=_blank>博客</a> | <a href="http://avkz.cn" target=_blank>avkz.cn</a> | <a href="http://www.666ym.cn" target=_blank>六六六域名</a>支持，主题huno </span>
+
 
 </html>
